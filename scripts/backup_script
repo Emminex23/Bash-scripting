@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# Author: Emmanuel Oyibo
+# Date Created: 31/01/23
+# Date Last Modified: 31/01/23
+
+# Description: 
+# This script backup all the files in your home directory and save them in a tar file
+
+# Usage:
+# backup_script
+
+tar -cvf ~/Desktop/Bash-scripting/my_backup_"$(date +%d-%m-%m-%Y_%H-%M-%S)".tar ~/* 2>/dev/null
+
+exit 0

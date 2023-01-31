@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# Author: Emmanuel Oyibo
+# Date Created: 31/01/23
+# Date Modified: 31/01/23
+
+# Description: 
+# Prints "This is my first script" to the terminal
+
+# Usage: 
+# first_script
+
+echo "This is my first script"
+
+exit 0
+
